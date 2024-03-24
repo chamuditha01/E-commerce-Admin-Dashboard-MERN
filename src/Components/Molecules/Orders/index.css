@@ -1,0 +1,17 @@
+/* index.css */
+.container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Ensure the container takes up the full viewport height */
+}
+
+table {
+    border-collapse: collapse; /* Ensure borders collapse properly */
+    margin: auto; /* Center the table horizontally */
+}
+
+th, td {
+    border: 1px solid black; /* Add border to table cells */
+    padding: 8px; /* Add padding for better spacing */
+}

@@ -1,0 +1,13 @@
+@media(max-width: 558px) {
+    #analy{
+      width: 200px;
+    }
+    
+  }
+  @media(max-width: 768px) {
+  #analy{
+    width: 200px;
+    margin-right: -30px;
+  }
+  
+}

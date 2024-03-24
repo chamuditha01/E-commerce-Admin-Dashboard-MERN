@@ -1,0 +1,14 @@
+
+td{
+    border: 1px #000000 solid;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    border: 1px #000000 solid;
+    text-align: center;
+}
+#bt{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
