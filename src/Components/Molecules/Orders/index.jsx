@@ -20,7 +20,11 @@ const Orders = () => {
     return (
         <div style={containerStyle}>
             <div>
+                <br></br>
                 <h1>New Orders</h1>
+                <br></br>
+                <hr></hr>
+                <br></br>
                 <table style={tableStyle}>
                     <thead>
                         <tr>
@@ -28,6 +32,7 @@ const Orders = () => {
                             <th style={cellStyle}>User Id</th>
                             <th style={cellStyle}>Product Id</th>
                             <th style={cellStyle}>Quantity</th>
+                            <th style={cellStyle}>Order Date</th>
                             <th style={cellStyle}>Actions</th>
                         </tr>
                     </thead>
@@ -37,6 +42,7 @@ const Orders = () => {
                             <td style={cellStyle}>2</td>
                             <td style={cellStyle}>12</td>
                             <td style={cellStyle}>2</td>
+                            <td style={cellStyle}>2024/03/18</td>
                             <td style={cellStyle}><button id="bt">Confirm</button></td>
                         </tr>
                     </tbody>

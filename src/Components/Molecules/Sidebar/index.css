@@ -14,7 +14,17 @@
 
 #side a{
     color: white;
-    background-color: #1d2274;
+   
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+
+}
+#side #aa{
+    color: white;
+    display: flex;
+    flex-direction: row;
     padding: 15px;
     text-decoration: none;
     display: block;

@@ -23,13 +23,17 @@ const Analytics = () => {
     };
 
     return (
-        <div  style={{ width: '350px', height: '400px',marginLeft:'-59px',marginBottom:'100px'}}>
-            <h1>Analytics</h1>
+        <div  style={{ width: '350px', height: '400px',marginLeft:'-59px',marginBottom:'200px'}}>
+            <br></br>
+            <h1>Analytics</h1><br></br>
+            <hr style={{width:'290px', marginLeft:'60px'}}></hr>
+            <br></br>
             <Line  data={data} options={options} />
             <br/>
             <br></br>
             <br></br>
             <Line data={data} options={options} />
+            
         </div>
     );
 }

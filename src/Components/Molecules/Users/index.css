@@ -8,3 +8,17 @@ th{
     border: 1px #000000 solid;
     text-align: center;
 }
+body {
+    overflow-x: hidden;
+  }
+#containertble{
+    
+    max-width:600px;
+}
+
+@media(max-width:656px){
+    #containertble{
+        overflow-x: auto;
+        max-width:250px;
+    }
+}

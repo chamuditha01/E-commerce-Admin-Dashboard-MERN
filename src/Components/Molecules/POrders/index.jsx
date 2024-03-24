@@ -19,7 +19,10 @@ const POrders = () => {
     return (
         <div style={containerStyle}>
             <div>
-                <h1>Confirmed Orders</h1>
+                <br></br>
+                <h1>Confirmed Orders</h1><br></br>
+                <hr></hr>
+                <br></br>
                 <table style={tableStyle}>
                     <thead>
                         <tr>

@@ -37,11 +37,11 @@ const Dashboard = () => {
             <div className="dashboard-container" style={{ backgroundColor: backgroundColor,color: color }}>
                 <Sidebar onLinkClick={handleLinkClick} />
                 <div style={{
-                    maxWidth: "400px",
+                    maxWidth: "500px",
                     margin: "0 auto",
                     borderRadius: "10px",
                     justifyContent: "center",
-                }}>
+                }}><hr></hr>
                     {selectedLink === 'Products' && <Products/>}
                     {selectedLink === 'NOrders' && <Orders/>}
                     {selectedLink === 'Users' && <Users/>}
