@@ -2,14 +2,14 @@
 
 #side{
     width: 20%;
-    height: 100vh;
+    height:120vh;
     background-color: #1d2634;
     padding: 20px;
     float: left;
     margin: 0;
     color: white;
     box-sizing: border-box;
-
+    
 }
 
 #side a{

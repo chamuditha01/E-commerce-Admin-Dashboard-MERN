@@ -1,0 +1,27 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: row; /* Sidebar and content side by side by default */
+    background-color:#212f46;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .dashboard-container {
+        flex-direction: column; /* Sidebar above content on mobile */
+    }
+    .sidebar {
+        flex: 0 0 25%; /* Set sidebar to be 25% of the container's width */
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+}
+
+
+h1{
+    text-align: center;
+}
+.content {
+    /* Add any other styles you need for your content */
+    justify-content: center;
+    background-color:#1d2634;
+  }
